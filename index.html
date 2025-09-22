@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub & DevOps Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #24292e;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      background-color: #0366d6;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #0366d6;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+
+    .card i {
+      font-size: 40px;
+      color: #24292e;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #24292e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fab fa-github"></i> GitHub & DevOps</h1>
+    <p>Your journey into modern development workflows</p>
+  </header>
+
+  <nav>
+    <a href="#github">GitHub</a>
+    <a href="#devops">DevOps</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="github" class="section">
+    <h2><i class="fab fa-github"></i> What is GitHub?</h2>
+    <div class="card">
+      <p>GitHub is a cloud-based platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+      <ul>
+        <li>Host and review code</li>
+        <li>Manage projects</li>
+        <li>Collaborate with teams</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="devops" class="section">
+    <h2><i class="fas fa-cogs"></i> What is DevOps?</h2>
+    <div class="card">
+      <p>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the development lifecycle and deliver high-quality software continuously.</p>
+      <ul>
+        <li>Continuous Integration / Delivery (CI/CD)</li>
+        <li>Infrastructure as Code (IaC)</li>
+        <li>Monitoring and Logging</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2><i class="fas fa-envelope"></i> Get in Touch</h2>
+    <div class="card">
+      <p>Have questions or want to collaborate? Reach out via GitHub or email!</p>
+      <p>
+        <i class="fab fa-github"></i> <a href="https://github.com" target="_blank">GitHub Profile</a><br>
+        <i class="fas fa-envelope"></i> email@example.com
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GitHub & DevOps Learning Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
